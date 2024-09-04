@@ -1,0 +1,24 @@
+#headerContainer {
+    width: 1250px;
+    height: 100px;
+    display: flex; /*bu stil container içerisinde bulunan divleri yanyana sýralar*/
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo {
+    background-color: #F1F1F1;
+    text-align: justify; /* justify: Stretches the lines so that each line has equal width (like in newspapers and magazines)*/
+    padding: 10px;
+}
+
+.rightContainer{
+    float:right;
+    display: block;
+    color:#f2f2f2;
+    text-align:center;
+
+}
+
