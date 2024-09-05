@@ -151,7 +151,7 @@ body {
     display: flex; /*bu stil container içerisinde bulunan divleri yanyana sýralar*/
     /* padding: 15px; */
     justify-content: center; /*Kutular arasý boþluk*/
-    padding-top: 15px;
+    padding-top: 50px;
     padding-bottom: 20px;
     background-color: whitesmoke;
     font-size: 16px;
@@ -286,5 +286,24 @@ body {
 #box4 {
     color: black;
     line-height: 100px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBox {
+    background-color: #ddd;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center; /*Dikeyde ortalama*/
+    justify-content: center; /*Yatayda ortalama*/
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
