@@ -30,14 +30,14 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-    .menu a {
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        border-radius: 10px;
-    }
+.menu a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
 
 .menu a:hover{
     background-color: #ddd;
@@ -61,6 +61,7 @@ body {
     transition: 0.3s;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 .btnLogin:hover {
@@ -69,7 +70,7 @@ body {
 }
 
 .btnRegister {
-    background-color: #f6d0ed;
+    background-color: #FFE4E1;
     border: none;
     color: black;
     padding: 10px 24px;
@@ -79,9 +80,64 @@ body {
     transition: 0.3s;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
 }
 
 .btnRegister:hover {
-    background-color: #b381a0;  
+    background-color: #FF4500;
     color: white;
+}
+
+.row{
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: center; /*buton konumu*/
+}
+
+.column{
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/*Start Shopping Button*/
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(152, 0, 71);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 10px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb'; /* >> iþareti */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -25px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
