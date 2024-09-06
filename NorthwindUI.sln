@@ -5,6 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{35120D7E-5537-488A-A147-566793E21AAD}"
 	ProjectSection(SolutionItems) = preProject
+		hakkimizda.html = hakkimizda.html
 		mainpage.css = mainpage.css
 		mainpage.html = mainpage.html
 	EndProjectSection
