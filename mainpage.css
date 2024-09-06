@@ -153,8 +153,8 @@ body {
     display: flex; /*bu stil container içerisinde bulunan divleri yanyana sýralar*/
     /* padding: 15px; */
     justify-content: center; /*Kutular arasý boþluk*/
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px; /*alt*/
     background-color: whitesmoke;
     font-size: 16px;
 }
@@ -185,7 +185,8 @@ body {
         border-right-style: solid;
         border-bottom-style: dotted;
         border-left-style: solid;
-    }
+        border-color: orange;
+}
 
 .box-2 {
     width: 150px;
@@ -212,6 +213,7 @@ body {
         border-right-style: solid;
         border-bottom-style: dotted;
         border-left-style: solid;
+        border-color: #a89de9;
     }
 
 .box-3 {
@@ -234,13 +236,14 @@ body {
 
 .box-3:hover {
         background-color: white;
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); 
         border-radius: 15px;
         border-top-style: dotted;
         border-right-style: solid;
         border-bottom-style: dotted;
         border-left-style: solid;
-    }
+        border-color: orange;
+}
 
 .box-4 {
     width: 150px;
@@ -268,7 +271,8 @@ body {
         border-right-style: solid;
         border-bottom-style: dotted;
         border-left-style: solid;
-    }
+        border-color: pink;
+}
 
 #box1 {
     color: black;
@@ -306,15 +310,27 @@ body {
     display: flex;
     align-items: center; /*Dikeyde ortalama*/
     justify-content: center; /*Yatayda ortalama*/
-    margin: 0 auto;
+    margin: 0 auto; 
     border-radius: 10px;
 }
 
-#mail{
-    background-color: ghostwhite;
-    border-radius: 2px;
+#mail {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
+#btnMail {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+#btnMail:hover {
+    background-color: #5b619d;
+    color: white;
+}
 
 /* Hakkýmýzda CSS */
 .content {
@@ -343,11 +359,11 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 
-
 .btnUpdate {
     background-color: white;
     color: black;
-    border: 2px solid #04AA6D;
+    border: 2px solid green;
+    border-radius: 5px;
     padding: 5px 8px;
     text-align: center;
     text-decoration: none;
@@ -357,11 +373,16 @@ tr:nth-child(even) {
     transition-duration: 0.4s;
     cursor: pointer;
 }
+
+    .btnUpdate:hover {
+        background-color: rgb(0, 152, 120);
+        color: white;
+    }
 
 .btnDelete {
     background-color: white;
     color: black;
-    border: 2px solid #f44336;
+    border: 2px solid red;
     border-radius: 5px;
     padding: 5px 8px;
     text-align: center;
@@ -371,20 +392,35 @@ tr:nth-child(even) {
     margin: 3px 1px;
     transition-duration: 0.4s;
     cursor: pointer;
+
 }
 
-    .btnDelete:hover {
+.btnDelete:hover {
         background-color: #f44336;
         color: white;
-    }
-
-#btnCreate {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 4px;
-    cursor: pointer;
-    border-radius: 5px;
 }
+
+/*Add New Item Pressed Effect*/
+#btnCreate {
+    background-color: white;
+    color: #fff;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 15px 15px; /*butonun dýþarýya alt-üst, sað-sol uzaklýðý*/
+    transition-duration: 0.4s;
+    cursor: pointer;
+    float: right; /*Saða hizalar*/
+    box-shadow: 0 5px #999;
+}
+
+    #btnCreate:hover {
+        background-color: #3e8e41;
+    }
 
 #tableContainer{
     width: 1000px;
