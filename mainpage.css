@@ -52,12 +52,12 @@ body {
 
 .btnLogin {
     background-color: rgb(195, 255, 238);
-    border: none;
-    color: black;
-    padding: 10px 24px;
-    text-align: center;
-    font-size: 16px;
-    margin-left: 10px;
+    border: none; 
+    color: black; /*Yazý renk*/
+    padding: 10px 24px; /*Butonun içindeki yazý ile kenarlarý arasýndaki boþluk. Üst ve altta 10px, sað ve solda 24px boþluk*/
+    text-align: center; /*Buton üzerindeki yazý*/
+    font-size: 16px; 
+    margin-left: 10px; /*Dýþ boþluk*/
     transition: 0.3s;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
@@ -88,6 +88,7 @@ body {
     color: white;
 }
 
+/*Content*/
 .row{
     background-color: whitesmoke;
     padding: 5px;
@@ -312,6 +313,8 @@ body {
     background-color: ghostwhite;
 }
 
+
+/* Hakkýmýzda CSS */
 .content {
     width: 1000px;
     height: 50px;
@@ -319,3 +322,75 @@ body {
     justify-content: center;
     margin: auto;
 }
+
+/* Ürünler CSS */
+table{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/*
+button {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+*/
+.btnUpdate {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btnDelete {
+    background-color: white;
+    color: black;
+    border: 2px solid #04AA6D;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 3px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#btnCreate {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#tableContainer{
+    width: 1000px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+

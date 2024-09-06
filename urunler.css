@@ -1,0 +1,16 @@
+﻿body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+#tableContainer {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHeader {
+    margin-left: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

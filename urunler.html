@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link href="mainpage.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Navbar-->
+    <div class="topnav">
+        <a class="logo"><b>Northwind</b></a>
+        <div class="menu">
+            <a href="mainpage.html"><b>Anasayfa</b></a>
+            <a href="hakkimizda.html" target="_self"><b>Hakkımızda</b></a>
+            <a href="urunler.html"><b>Ürünler</b></a>
+            <a href="#"><b>Müşteriler</b></a>
+            <a href="#"><b>Siparişler</b></a>
+        </div>
+        <div class="buttons">
+            <button class="btnLogin">Login</button>
+            <button class="btnRegister">Register</button>
+        </div>
+    </div>
+
+    <!--Table-->
+    <div id="tableContainer">
+        <div class="tableHeader">
+            <h1>Ürünler</h1>
+            <button id="btnCreate">New Item</button>
+        </div>
+        <table border="1" width="100%">
+            <tr>
+                <th>Product Name</th>
+                <th>Unit Price</th>
+                <th>Units In Stock</th>
+                <th>Units On Order</th>
+            </tr>
+            <tr>
+                <td>Chocolade</td>
+                <td>12,75</td>
+                <td>15</td>
+                <td>70</td>
+                <td style="width: 122px;">
+                    <button class="btnUpdate">Update</button>
+                    <button class="btnDelete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Chai</td>
+                <td>10,00</td>
+                <td>39</td>
+                <td>0</td>
+                <td style="width: 122px;">
+                    <button class="btnUpdate">Update</button>
+                    <button class="btnDelete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Tofu</td>
+                <td>23,25</td>
+                <td>35</td>
+                <td>100</td>
+                <td style="width: 122px;">
+                    <button class="btnUpdate">Update</button>
+                    <button class="btnDelete">Delete</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
